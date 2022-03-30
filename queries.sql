@@ -19,7 +19,6 @@ INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Cou
 VALUES ('The Shire', 'Bilbo Baggins', '1 Hobbit-Hole', 'Bag End', '111', 'Middle Earth');
 
 -- Update Bilbo Baggins record so that the postal code changes to "11122"
-    -- update <table name> set <field> = <value> where <condition>;
 UPDATE Customers
 SET PostalCode="11122"
 WHERE ContactName="Bilbo Baggins";
